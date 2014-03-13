@@ -1,0 +1,6 @@
+# Editor generated files #
+######################
+.idea
+.git
+node_modules
+.sass-cache

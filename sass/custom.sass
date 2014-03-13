@@ -1,0 +1,383 @@
+$icons-spacing:20px
+@import "compass/utilities/sprites"
+@import "icons/*.png"
+
+@font-face
+  font-family: 'droid_serifitalic'
+  src: url('../fonts/droidserif-italic_1-webfont.eot')
+  src: url('../fonts/droidserif-italic_1-webfont.eot?#iefix') format("embedded-opentype"), url('../fonts/droidserif-italic_1-webfont.woff') format("woff"), url('../fonts/droidserif-italic_1-webfont.ttf') format("truetype"), url('../fonts/droidserif-italic_1-webfont.svg#droid_serifitalic') format("svg")
+  font-weight: normal
+  font-style: normal
+
+
+*
+  margin: 0
+  padding: 0
+
+body
+  font-size: 14px
+  font-family: helvetica, arial, sans serif
+  color: #444444
+
+.logo
+  margin-top: 20px
+  float: left
+
+.tollFreeNumber
+  padding: 20px
+  margin: 0 20px
+  background: url("../images/transferentDivider.png") 0 0 no-repeat
+  color: #222222
+  font-size: 15px
+  float: left
+
+i
+  text-indent: -9999em
+
+header
+  margin-bottom: 75px
+
+.topLoginPanel
+  float: right
+  list-style: none
+  margin: 0
+  padding: 0
+  li
+    &:first-child
+      background: none
+    background: url("../images/transferentDivider.png") 0 0 no-repeat
+    float: left
+    padding: 20px
+  a
+    color: #1177bb
+    display: block
+    &:hover
+      text-decoration: none
+      color: #ee7700
+
+.threeSteps
+  h2
+    text-rendering: auto
+    text-align: center
+    font-size: 40px
+    line-height: 42px
+    font-weight: normal
+    margin: 0 0 40px 0
+  text-align: center
+  margin-bottom: 80px
+
+.threeStepsWrap
+  ul
+    display: inline-block
+    border: solid 1px #eee
+    border-radius: 5px
+    margin: 0 auto
+    padding: 0 30px
+  li
+    &:first-child
+      background: none
+      padding-left: 0
+    float: left
+    line-height: 40px
+    color: #888888
+    i
+      //background: url("../img/homeSprite.png") 0 0 no-repeat
+      width: 25px
+      height: 40px
+      display: block
+      float: right
+      margin: 0 5px
+
+.testimonialRequestWrap
+  margin-bottom: 35px
+
+.doubleQuotes
+  @include icons-sprite(doubleQuote)
+  //background: url("../img/homeSprite.png") 2px -53px no-repeat
+  width: 35px
+  height: 25px
+  float: left
+  display: block
+  position: absolute
+  top: 0
+
+.testimonial
+  .testiSpeak
+    padding-left: 50px
+    color: #444444
+    line-height: 25px
+    font-family: 'droid_serifitalic', sans serif, arial
+    margin-bottom: 10px
+  .testiNameWrap
+    color: #888888
+    font-style: normal
+    margin: 0 0 0 50px
+
+.testiNameWrap .testiName
+  font-weight: bold
+  font-style: normal
+  color: #444444
+
+.testimonialsWrap
+  position: relative
+
+.orangeBtn
+  display: block
+  padding: 10px 20px
+  background: #ee7700
+  min-width: 180px
+  color: #ffffff
+  font-size: 18px
+  border-radius: 5px
+  margin-bottom: 10px
+  &:hover
+    background: #f2881d
+    color: #ffffff
+
+.moveHomeVehicleButtons a
+  i
+    //background: url("../img/homeSprite.png") 0 0 no-repeat
+    width: 25px
+    height: 20px
+    display: block
+    float: left
+    margin-right: 15px
+  &.home i
+    @include icons-sprite(homeIcon)
+    //background-position: -31px 0
+  &.vehicle i
+    @include icons-sprite(vehicleIcon)
+    //background-position: -31px -25px
+
+.blueFullWrap
+  background: #88bbdd
+  padding: 20px
+
+#no-template-pager
+  span
+    position: relative
+    cursor: pointer
+    display: block
+    float: left
+    margin-right: 20px
+  .cycle-pager-active:before
+    content: " "
+    position: absolute
+    display: inline-block
+    top: -30px
+    left: 45%
+    margin-left: -10px
+    border-left: 10px solid transparent
+    border-right: 10px solid transparent
+    border-bottom: 10px solid #88bbdd
+  span
+    img
+      border: solid 1px #ffffff
+      border-radius: 50%
+      max-width: 60px
+      max-height: 60px
+    &.cycle-pager-active img
+      border: solid 1px #000
+
+.moveHomeVehicleButtons .vehicle
+  margin-bottom: 20px
+
+.requestCallBack
+  display: block
+  float: left
+  color: #1177bb
+
+.testiViewMore
+  float: left
+  padding: 10px 60px
+  border-radius: 15px
+  border: solid 1px #ffffff
+  color: #fff
+  font-size: 18px
+  margin: 10px 0 0 0
+
+.grayFullWrap, .whiteFullWrap
+  background: #f5f5f5
+  padding: 50px 0
+  border-bottom: solid 1px #e2e2e2
+
+.aboutOurTravel
+  font-size: 20px
+  line-height: 25px
+  margin-top: 20px
+
+.tripsAround
+  font-weight: bold
+
+.kilometers
+  font-size: 24px
+  margin-top: 20px
+  display: block
+  span
+    font-size: 30px
+    font-weight: bold
+
+.whiteFullWrap
+  background: #ffffff
+  h2
+    text-align: center
+    font-weight: normal
+    font-size: 36px
+    line-height: 38px
+    margin: 0 0 60px 0
+
+.advantages
+  margin-top: 40px
+  h5
+    font-size: 18px
+    margin: 0
+  li
+    margin-bottom: 30px
+
+.ezmoveBeneficial h3, .walkthrough h3
+  font-size: 24px
+  font-weight: normal
+  line-height: 26px
+  margin: 0 0 45px 0
+
+.ezmoveBeneficial
+  li
+    float: left
+    margin-bottom: 30px
+  h5
+    font-size: 16px
+    float: left
+    margin: 0
+    font-weight: normal
+    line-height: normal
+
+.consolidate h5
+  margin-top: 15px
+
+.ezmoveBeneficial
+  i
+    //background: url("../img/homeSprite.png") 3px -87px no-repeat
+    width: 70px
+    height: 35px
+    display: block
+    float: left
+    margin-right: 20px
+  .freeCashless
+    @include icons-sprite(cashlessIcon)
+  .consolidateView
+    @include icons-sprite(paymentInvoice)
+    height: 60px
+  .onlineInvoice
+    @include icons-sprite(onlineInvoice)
+    //background-position: 24px -198px
+    height: 60px
+  .cookedUpBills
+    @include icons-sprite(cookUpBills)
+    //background-position: 15px -267px
+    height: 66px
+
+.walkThroughtForm
+  width: 320px
+  .controls .error
+    color: red
+  input[type=text]
+    background: url("../images/inputBg.png") 0 bottom no-repeat
+    border: none
+    box-shadow: none
+    width: 282px
+    padding: 0 10px 3px
+    font-size: 13px
+    color: #aaaaaa
+    border-radius: 0
+  .control-group
+    margin-bottom: 20px
+
+.greenBtn
+  background: #88bb33
+  &:hover
+    background: #94ca3b
+
+input[type="submit"]
+  padding: 10px
+  color: #ffffff
+  border: none
+  width: 300px
+  border-radius: 5px
+
+.footerLinks li
+  float: left
+  margin-left: 20px
+  &:first-child
+    margin-left: 0
+  a
+    color: #1177bb
+    font-size: 14px
+    &:hover
+      text-decoration: none
+      color: #000000
+
+.copyrightTxt
+  margin-top: 40px
+  color: #666666
+
+.socialMedia
+  li
+    margin-left: 20px
+    float: left
+  a
+    //background: url("../img/homeSprite.png") -50px -48px no-repeat
+    display: block
+    float: left
+    width: 32px
+    height: 32px
+  li:first-child
+    margin-left: 0
+  .facebook
+    @include icons-sprite(fb)
+    //background-position: -50px -48px
+  .twitter
+    @include icons-sprite(tw)
+    //background-position: -5px -344px
+  .googlePlus
+    @include icons-sprite(gplus)
+    //background-position: -5px -384px
+
+.logoPhNumberWrap
+  float: left
+
+/*common-css
+
+a:hover
+  text-decoration: none
+
+h1, h2, h3, h4, h5, h6
+  text-rendering: auto
+
+.strong
+  font-weight: bold
+
+.orangeTxt
+  color: #ee7700
+
+.reset
+  list-style: none
+  margin: 0
+  padding: 0
+
+textarea:focus
+  box-shadow: none
+  outline: 0
+
+input
+  &[type="text"]:focus, &[type="password"]:focus, &[type="datetime"]:focus, &[type="datetime-local"]:focus, &[type="date"]:focus, &[type="month"]:focus, &[type="time"]:focus, &[type="week"]:focus, &[type="number"]:focus, &[type="email"]:focus, &[type="url"]:focus, &[type="search"]:focus, &[type="tel"]:focus, &[type="color"]:focus
+    box-shadow: none
+    outline: 0
+
+.uneditable-input:focus
+  box-shadow: none
+  outline: 0
+
+/* Placeholders consistency
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder, input:-moz-placeholder, textarea:-moz-placeholder, input:-ms-input-placeholder, textarea:-ms-input-placeholder
+  color: #aaaaaa

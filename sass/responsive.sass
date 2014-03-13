@@ -1,0 +1,296 @@
+$icons-spacing:20px
+@import "compass/utilities/sprites"
+@import "icons/*.png"
+
+/* responsive css
+
+@media (min-width: 768px) and (max-width: 979px)
+  .logoPhNumberWrap
+    float: left
+  .testiViewMore
+    margin: 10px 0
+  .whiteFullWrap h2, .threeSteps h2
+    font-size: 30px
+    line-height: 32px
+  .orangeBtn
+    padding: 10px
+    font-size: 16px
+    min-width: 0
+  .aboutOurTravel
+    font-size: 18px
+  .ezmoveBeneficial
+    h5
+      font-size: 13px
+    h3
+      font-size: 22px
+  .walkthrough h3
+    font-size: 22px
+  .ezmoveBeneficial i
+    margin-right: 15px
+  .footerLinks li
+    a
+      font-size: 12px
+    margin-left: 10px
+  #no-template-pager span
+    margin-right: 15px
+
+@media (min-width: 481px) and (max-width: 767px)
+  body
+    padding: 0
+  .container
+    margin: 0 10px
+  .ezmoveBeneficial h3, .walkthrough h3
+    font-size: 22px
+    line-height: 24px
+  .threeStepsWrap ul
+    width: 250px
+  .testimonial .testiSpeak
+    overflow: hidden
+    font-size: 13px
+    line-height: 16px
+  .tollFreeNumber
+    padding: 10px
+    //background: url("../img/transferentDividerMob.png") 0 0 no-repeat
+    margin: 0 10px
+    font-size: 12px
+  .logoPhNumberWrap
+    float: left
+  header
+    margin-bottom: 15px
+  .threeSteps
+    margin-bottom: 25px
+  .indiaMap, .advantages
+    text-align: center
+  .moveHomeVehicleButtons
+    width: 100%
+  .orangeBtn
+    float: left
+    margin-left: 20px
+    display: block
+  .moveHomeVehicleButtons
+    text-align: center
+  .moveVehicleBtns
+    a
+      text-align: left
+      min-width: 150px
+    display: inline-block
+  .ezmoveBeneficial, .walkthrough, .footerLinks
+    width: 315px
+    margin: 0 auto 30px
+  #no-template-pager
+    span
+      width: 18%
+      padding: 0
+      margin-right: 6px
+    .cycle-pager-active:before
+      top: -30px
+  .testiViewMore
+    margin: 10px auto
+    padding: 5px 20px
+    font-size: 14px
+    float: none
+    display: block
+    width: 107px
+  .logo
+    width: 35%
+    margin-top: 10px
+  .threeSteps h2
+    font-size: 23px
+    line-height: 25px
+    margin-bottom: 25px
+  .testimonialsWrap
+    margin-bottom: 20px
+  #no-template-pager
+    margin: 0 15px auto
+    display: inline-block
+    float: none
+  .ezmoveBeneficial
+    h5
+      font-size: 12px
+    i
+      margin-right: 10px
+  .testimonialPager
+    text-align: center
+  .testimonial .testiNameWrap
+    font-size: 12px
+  .moveHomeVehicleButtons
+    margin: 0
+    float: none
+  .earth, .aboutOurTravel
+    text-align: center
+  .whiteFullWrap
+    overflow: hidden
+  .ezmoveBeneficial li
+    width: 100%
+  .grayFullWrap
+    background: #f5f5f5
+    padding: 20px 20px 50px
+  .copyrightTxt
+    float: left
+  .socialMedia
+    width: 140px
+    margin: 0 auto
+  .footerLinks li
+    float: left
+    margin: 0 0 15px
+    width: 50%
+    text-align: center
+  .copyrightTxt
+    padding: 10px
+    text-align: center
+    width: 100%
+    margin: 0
+  #no-template-pager span img
+    margin-right: 0
+  .requestCallBack
+    float: none
+    text-align: center
+    margin: 0 25px
+  .threeStepsWrap li
+    i
+      background: none
+      height: auto
+      width: auto
+    width: 100%
+    text-align: left
+    font-size: 16px
+  .whiteFullWrap h2
+    font-size: 30px
+    line-height: 32px
+    margin-bottom: 30px
+  .topLoginPanel li
+    padding: 10px
+    //background: url("../img/transferentDividerMob.png") 0 0 no-repeat
+    font-size: 12px
+  .moveHomeVehicleButtons .vehicle
+    margin-bottom: 0
+
+@media (min-width: 320px) and (max-width: 480px)
+  body
+    padding: 0
+  .container
+    margin: 0 10px
+  .logoPhNumberWrap
+    float: left
+    width: 75%
+  #no-template-pager
+    margin: 0 15px auto
+    display: inline-block
+    float: none
+  .logo
+    margin: 5px 5px 10px 0
+    width: 32%
+  .topLoginPanel li
+    font-size: 11px
+    padding: 5px 0 10px 6px
+    margin: 0 5px
+    //background: url("../img/transferentDividerMob.png") 0 0 no-repeat
+    &:first-child
+      padding: 5px 0 10px 0
+      margin: 0
+  .threeStepsWrap li i
+    background: none
+    width: auto
+    height: auto
+  .testimonial .testiSpeak
+    overflow: hidden
+    font-size: 13px
+    line-height: 16px
+  .testiViewMore
+    margin: 10px auto
+    padding: 5px 20px
+    font-size: 14px
+    float: none
+    display: block
+    width: 107px
+  .testimonialPager
+    text-align: center
+  .testimonial .testiNameWrap
+    font-size: 12px
+  .testimonialsWrap
+    margin: 0
+  .moveHomeVehicleButtons
+    width: 260px
+    margin: 0 auto
+  .threeStepsWrap ul
+    margin-bottom: 0
+  .aboutOurTravel
+    font-size: 15px
+    padding: 0 10px
+    text-align: center
+  .advantages
+    width: 100%
+    h4
+      font-size: 16px
+  .whiteFullWrap h2
+    font-size: 22px
+    margin-bottom: 30px
+  .ezmoveBeneficial h3, .walkthrough h3
+    font-size: 18px
+    text-align: center
+  .ezmoveBeneficial
+    i
+      margin-right: 10px
+    h5
+      font-size: 12px
+  .grayFullWrap, .whiteFullWrap
+    padding: 30px 0
+    overflow: hidden
+  .walkThroughtForm input[type=text]
+    width: 240px
+    //background: url("../img/inputBgMobile.png") 1px bottom no-repeat
+    padding: 0 12px 0px
+  input[type="submit"]
+    width: 260px
+  .footerLinks
+    text-align: center
+    li
+      float: left
+      margin: 0 0 15px
+      width: 50%
+  .ezmoveBeneficial li
+    width: 100%
+  .requestCallBack
+    text-align: center
+    float: none
+  .earth
+    text-align: center
+  .socialMedia
+    width: 150px
+    margin: 0 auto
+  .topLoginPanel a
+    padding: 0  0 0 30px
+    height: auto
+    &:first-child
+      padding: 0
+  .indiaMap, .advantages
+    text-align: center
+  .ezmoveBeneficial, .walkthrough, .footerLinks
+    width: 280px
+    margin: 0 auto 30px
+  .threeSteps h2
+    font-size: 23px
+    line-height: 25px
+  header
+    margin-bottom: 20px
+  .orangeBtn
+    float: left
+    width: 40%
+    margin-left: 20px
+    display: block
+  .tollFreeNumber
+    padding: 5px
+    //background: url("../img/transferentDividerMob.png") 0 0 no-repeat
+    margin: 0
+    font-size: 11px
+  .blueFullWrap
+    padding: 20px 0
+  #no-template-pager span
+    margin-right: 3px
+    img
+      max-width: 45px
+      max-height: 45px
+  .threeStepsWrap li
+    font-size: 16px
+  .threeSteps
+    margin-bottom: 30px

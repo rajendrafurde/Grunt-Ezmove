@@ -1,0 +1,570 @@
+/* line 114, icons/*.png */
+.icons-sprite {
+  background: url('../images/icons-scccccb7c40.png') no-repeat;
+}
+
+/* responsive css */
+@media (min-width: 768px) and (max-width: 979px) {
+  /* line 8, ../sass/responsive.sass */
+  .logoPhNumberWrap {
+    float: left;
+  }
+
+  /* line 10, ../sass/responsive.sass */
+  .testiViewMore {
+    margin: 10px 0;
+  }
+
+  /* line 12, ../sass/responsive.sass */
+  .whiteFullWrap h2, .threeSteps h2 {
+    font-size: 30px;
+    line-height: 32px;
+  }
+
+  /* line 15, ../sass/responsive.sass */
+  .orangeBtn {
+    padding: 10px;
+    font-size: 16px;
+    min-width: 0;
+  }
+
+  /* line 19, ../sass/responsive.sass */
+  .aboutOurTravel {
+    font-size: 18px;
+  }
+
+  /* line 22, ../sass/responsive.sass */
+  .ezmoveBeneficial h5 {
+    font-size: 13px;
+  }
+  /* line 24, ../sass/responsive.sass */
+  .ezmoveBeneficial h3 {
+    font-size: 22px;
+  }
+
+  /* line 26, ../sass/responsive.sass */
+  .walkthrough h3 {
+    font-size: 22px;
+  }
+
+  /* line 28, ../sass/responsive.sass */
+  .ezmoveBeneficial i {
+    margin-right: 15px;
+  }
+
+  /* line 30, ../sass/responsive.sass */
+  .footerLinks li {
+    margin-left: 10px;
+  }
+  /* line 31, ../sass/responsive.sass */
+  .footerLinks li a {
+    font-size: 12px;
+  }
+
+  /* line 34, ../sass/responsive.sass */
+  #no-template-pager span {
+    margin-right: 15px;
+  }
+}
+@media (min-width: 481px) and (max-width: 767px) {
+  /* line 38, ../sass/responsive.sass */
+  body {
+    padding: 0;
+  }
+
+  /* line 40, ../sass/responsive.sass */
+  .container {
+    margin: 0 10px;
+  }
+
+  /* line 42, ../sass/responsive.sass */
+  .ezmoveBeneficial h3, .walkthrough h3 {
+    font-size: 22px;
+    line-height: 24px;
+  }
+
+  /* line 45, ../sass/responsive.sass */
+  .threeStepsWrap ul {
+    width: 250px;
+  }
+
+  /* line 47, ../sass/responsive.sass */
+  .testimonial .testiSpeak {
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* line 51, ../sass/responsive.sass */
+  .tollFreeNumber {
+    padding: 10px;
+    margin: 0 10px;
+    font-size: 12px;
+  }
+
+  /* line 56, ../sass/responsive.sass */
+  .logoPhNumberWrap {
+    float: left;
+  }
+
+  /* line 58, ../sass/responsive.sass */
+  header {
+    margin-bottom: 15px;
+  }
+
+  /* line 60, ../sass/responsive.sass */
+  .threeSteps {
+    margin-bottom: 25px;
+  }
+
+  /* line 62, ../sass/responsive.sass */
+  .indiaMap, .advantages {
+    text-align: center;
+  }
+
+  /* line 64, ../sass/responsive.sass */
+  .moveHomeVehicleButtons {
+    width: 100%;
+  }
+
+  /* line 66, ../sass/responsive.sass */
+  .orangeBtn {
+    float: left;
+    margin-left: 20px;
+    display: block;
+  }
+
+  /* line 70, ../sass/responsive.sass */
+  .moveHomeVehicleButtons {
+    text-align: center;
+  }
+
+  /* line 72, ../sass/responsive.sass */
+  .moveVehicleBtns {
+    display: inline-block;
+  }
+  /* line 73, ../sass/responsive.sass */
+  .moveVehicleBtns a {
+    text-align: left;
+    min-width: 150px;
+  }
+
+  /* line 77, ../sass/responsive.sass */
+  .ezmoveBeneficial, .walkthrough, .footerLinks {
+    width: 315px;
+    margin: 0 auto 30px;
+  }
+
+  /* line 81, ../sass/responsive.sass */
+  #no-template-pager span {
+    width: 18%;
+    padding: 0;
+    margin-right: 6px;
+  }
+  /* line 85, ../sass/responsive.sass */
+  #no-template-pager .cycle-pager-active:before {
+    top: -30px;
+  }
+
+  /* line 87, ../sass/responsive.sass */
+  .testiViewMore {
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-size: 14px;
+    float: none;
+    display: block;
+    width: 107px;
+  }
+
+  /* line 94, ../sass/responsive.sass */
+  .logo {
+    width: 35%;
+    margin-top: 10px;
+  }
+
+  /* line 97, ../sass/responsive.sass */
+  .threeSteps h2 {
+    font-size: 23px;
+    line-height: 25px;
+    margin-bottom: 25px;
+  }
+
+  /* line 101, ../sass/responsive.sass */
+  .testimonialsWrap {
+    margin-bottom: 20px;
+  }
+
+  /* line 103, ../sass/responsive.sass */
+  #no-template-pager {
+    margin: 0 15px auto;
+    display: inline-block;
+    float: none;
+  }
+
+  /* line 108, ../sass/responsive.sass */
+  .ezmoveBeneficial h5 {
+    font-size: 12px;
+  }
+  /* line 110, ../sass/responsive.sass */
+  .ezmoveBeneficial i {
+    margin-right: 10px;
+  }
+
+  /* line 112, ../sass/responsive.sass */
+  .testimonialPager {
+    text-align: center;
+  }
+
+  /* line 114, ../sass/responsive.sass */
+  .testimonial .testiNameWrap {
+    font-size: 12px;
+  }
+
+  /* line 116, ../sass/responsive.sass */
+  .moveHomeVehicleButtons {
+    margin: 0;
+    float: none;
+  }
+
+  /* line 119, ../sass/responsive.sass */
+  .earth, .aboutOurTravel {
+    text-align: center;
+  }
+
+  /* line 121, ../sass/responsive.sass */
+  .whiteFullWrap {
+    overflow: hidden;
+  }
+
+  /* line 123, ../sass/responsive.sass */
+  .ezmoveBeneficial li {
+    width: 100%;
+  }
+
+  /* line 125, ../sass/responsive.sass */
+  .grayFullWrap {
+    background: whitesmoke;
+    padding: 20px 20px 50px;
+  }
+
+  /* line 128, ../sass/responsive.sass */
+  .copyrightTxt {
+    float: left;
+  }
+
+  /* line 130, ../sass/responsive.sass */
+  .socialMedia {
+    width: 140px;
+    margin: 0 auto;
+  }
+
+  /* line 133, ../sass/responsive.sass */
+  .footerLinks li {
+    float: left;
+    margin: 0 0 15px;
+    width: 50%;
+    text-align: center;
+  }
+
+  /* line 138, ../sass/responsive.sass */
+  .copyrightTxt {
+    padding: 10px;
+    text-align: center;
+    width: 100%;
+    margin: 0;
+  }
+
+  /* line 143, ../sass/responsive.sass */
+  #no-template-pager span img {
+    margin-right: 0;
+  }
+
+  /* line 145, ../sass/responsive.sass */
+  .requestCallBack {
+    float: none;
+    text-align: center;
+    margin: 0 25px;
+  }
+
+  /* line 149, ../sass/responsive.sass */
+  .threeStepsWrap li {
+    width: 100%;
+    text-align: left;
+    font-size: 16px;
+  }
+  /* line 150, ../sass/responsive.sass */
+  .threeStepsWrap li i {
+    background: none;
+    height: auto;
+    width: auto;
+  }
+
+  /* line 157, ../sass/responsive.sass */
+  .whiteFullWrap h2 {
+    font-size: 30px;
+    line-height: 32px;
+    margin-bottom: 30px;
+  }
+
+  /* line 161, ../sass/responsive.sass */
+  .topLoginPanel li {
+    padding: 10px;
+    font-size: 12px;
+  }
+
+  /* line 165, ../sass/responsive.sass */
+  .moveHomeVehicleButtons .vehicle {
+    margin-bottom: 0;
+  }
+}
+@media (min-width: 320px) and (max-width: 480px) {
+  /* line 169, ../sass/responsive.sass */
+  body {
+    padding: 0;
+  }
+
+  /* line 171, ../sass/responsive.sass */
+  .container {
+    margin: 0 10px;
+  }
+
+  /* line 173, ../sass/responsive.sass */
+  .logoPhNumberWrap {
+    float: left;
+    width: 75%;
+  }
+
+  /* line 176, ../sass/responsive.sass */
+  #no-template-pager {
+    margin: 0 15px auto;
+    display: inline-block;
+    float: none;
+  }
+
+  /* line 180, ../sass/responsive.sass */
+  .logo {
+    margin: 5px 5px 10px 0;
+    width: 32%;
+  }
+
+  /* line 183, ../sass/responsive.sass */
+  .topLoginPanel li {
+    font-size: 11px;
+    padding: 5px 0 10px 6px;
+    margin: 0 5px;
+  }
+  /* line 188, ../sass/responsive.sass */
+  .topLoginPanel li:first-child {
+    padding: 5px 0 10px 0;
+    margin: 0;
+  }
+
+  /* line 191, ../sass/responsive.sass */
+  .threeStepsWrap li i {
+    background: none;
+    width: auto;
+    height: auto;
+  }
+
+  /* line 195, ../sass/responsive.sass */
+  .testimonial .testiSpeak {
+    overflow: hidden;
+    font-size: 13px;
+    line-height: 16px;
+  }
+
+  /* line 199, ../sass/responsive.sass */
+  .testiViewMore {
+    margin: 10px auto;
+    padding: 5px 20px;
+    font-size: 14px;
+    float: none;
+    display: block;
+    width: 107px;
+  }
+
+  /* line 206, ../sass/responsive.sass */
+  .testimonialPager {
+    text-align: center;
+  }
+
+  /* line 208, ../sass/responsive.sass */
+  .testimonial .testiNameWrap {
+    font-size: 12px;
+  }
+
+  /* line 210, ../sass/responsive.sass */
+  .testimonialsWrap {
+    margin: 0;
+  }
+
+  /* line 212, ../sass/responsive.sass */
+  .moveHomeVehicleButtons {
+    width: 260px;
+    margin: 0 auto;
+  }
+
+  /* line 215, ../sass/responsive.sass */
+  .threeStepsWrap ul {
+    margin-bottom: 0;
+  }
+
+  /* line 217, ../sass/responsive.sass */
+  .aboutOurTravel {
+    font-size: 15px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  /* line 221, ../sass/responsive.sass */
+  .advantages {
+    width: 100%;
+  }
+  /* line 223, ../sass/responsive.sass */
+  .advantages h4 {
+    font-size: 16px;
+  }
+
+  /* line 225, ../sass/responsive.sass */
+  .whiteFullWrap h2 {
+    font-size: 22px;
+    margin-bottom: 30px;
+  }
+
+  /* line 228, ../sass/responsive.sass */
+  .ezmoveBeneficial h3, .walkthrough h3 {
+    font-size: 18px;
+    text-align: center;
+  }
+
+  /* line 232, ../sass/responsive.sass */
+  .ezmoveBeneficial i {
+    margin-right: 10px;
+  }
+  /* line 234, ../sass/responsive.sass */
+  .ezmoveBeneficial h5 {
+    font-size: 12px;
+  }
+
+  /* line 236, ../sass/responsive.sass */
+  .grayFullWrap, .whiteFullWrap {
+    padding: 30px 0;
+    overflow: hidden;
+  }
+
+  /* line 239, ../sass/responsive.sass */
+  .walkThroughtForm input[type=text] {
+    width: 240px;
+    padding: 0 12px 0px;
+  }
+
+  /* line 243, ../sass/responsive.sass */
+  input[type="submit"] {
+    width: 260px;
+  }
+
+  /* line 245, ../sass/responsive.sass */
+  .footerLinks {
+    text-align: center;
+  }
+  /* line 247, ../sass/responsive.sass */
+  .footerLinks li {
+    float: left;
+    margin: 0 0 15px;
+    width: 50%;
+  }
+
+  /* line 251, ../sass/responsive.sass */
+  .ezmoveBeneficial li {
+    width: 100%;
+  }
+
+  /* line 253, ../sass/responsive.sass */
+  .requestCallBack {
+    text-align: center;
+    float: none;
+  }
+
+  /* line 256, ../sass/responsive.sass */
+  .earth {
+    text-align: center;
+  }
+
+  /* line 258, ../sass/responsive.sass */
+  .socialMedia {
+    width: 150px;
+    margin: 0 auto;
+  }
+
+  /* line 261, ../sass/responsive.sass */
+  .topLoginPanel a {
+    padding: 0 0 0 30px;
+    height: auto;
+  }
+  /* line 264, ../sass/responsive.sass */
+  .topLoginPanel a:first-child {
+    padding: 0;
+  }
+
+  /* line 266, ../sass/responsive.sass */
+  .indiaMap, .advantages {
+    text-align: center;
+  }
+
+  /* line 268, ../sass/responsive.sass */
+  .ezmoveBeneficial, .walkthrough, .footerLinks {
+    width: 280px;
+    margin: 0 auto 30px;
+  }
+
+  /* line 271, ../sass/responsive.sass */
+  .threeSteps h2 {
+    font-size: 23px;
+    line-height: 25px;
+  }
+
+  /* line 274, ../sass/responsive.sass */
+  header {
+    margin-bottom: 20px;
+  }
+
+  /* line 276, ../sass/responsive.sass */
+  .orangeBtn {
+    float: left;
+    width: 40%;
+    margin-left: 20px;
+    display: block;
+  }
+
+  /* line 281, ../sass/responsive.sass */
+  .tollFreeNumber {
+    padding: 5px;
+    margin: 0;
+    font-size: 11px;
+  }
+
+  /* line 286, ../sass/responsive.sass */
+  .blueFullWrap {
+    padding: 20px 0;
+  }
+
+  /* line 288, ../sass/responsive.sass */
+  #no-template-pager span {
+    margin-right: 3px;
+  }
+  /* line 290, ../sass/responsive.sass */
+  #no-template-pager span img {
+    max-width: 45px;
+    max-height: 45px;
+  }
+
+  /* line 293, ../sass/responsive.sass */
+  .threeStepsWrap li {
+    font-size: 16px;
+  }
+
+  /* line 295, ../sass/responsive.sass */
+  .threeSteps {
+    margin-bottom: 30px;
+  }
+}
